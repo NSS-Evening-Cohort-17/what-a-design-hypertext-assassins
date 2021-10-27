@@ -1,22 +1,52 @@
 .ev__main {
-  background-image: url("");
+  font-family: 'Press Start 2P', cursive;
+  background-image: url("https://imgur.com/oMP6OGf");
 }
 
 .ev-about__h1, .ev-methods__h2, .ev-payment__h3, .ev-payment__h4, .ev--contact__h5, .ev--reviews__h5, .ev--catchphrase__h6 {
   font-family: 'Press Start 2P', cursive;
 }
 
-.ev--reveiws__p, .ev--reviewer__p, .ev--reviewer--origin__p, .ev--phone__p, .ev--email__p, .ev--payment__p, .ev--methods__p, .ev--methods__ul, .ev--about__p {
-  font-family: 'Press Start 2P', cursive;
-
-}
-
 .ev--catchphrase {
   background-color: brown;
   text-align: center;
   color: orange;
+  padding: 2rem;
 }
 
 .ev--catchphrase:hover {
-font-size: 700%;
+  font-size: 700%;
+}
+
+.blink {
+  animation: blink 1s steps(1, end) infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  } 
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.ev--container1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.ev--reviews__section, .ev--contact__section {
+  width: 40%;
+  height: 40%;
+  background-image: url("https://www.wallpaperboulevard.com/Images/product/beige-bedroom-plaid-wallpaper-bjmh-l.jpg");
+  margin: 2rem 3rem 2rem 3rem;
+}
+
+.ev--reviewer__div {
+  display: flex;
+  font-style: italic;  
 }
