@@ -30,6 +30,7 @@ body {
 .servicesMain {
     float: inline-start;
     margin-left: 3%;
+    margin-right: 60%;
     margin-top: -8%;
     padding-left: 5%;
     padding-right: -15%;
