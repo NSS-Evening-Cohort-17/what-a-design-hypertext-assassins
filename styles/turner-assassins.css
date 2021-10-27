@@ -22,7 +22,20 @@ h4 {
   margin: 1rem;
 }
 
+h5 {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 16pt;
+  margin: 1rem;
+}
+
+h6 {
+  font-family: 'PT Serif', serif;
+  font-size: 14pt;
+  margin: 1rem;
+}
+
 p {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
   margin: 2rem;
   font-size: 12pt;
 }
@@ -59,7 +72,7 @@ img {
 }
 
 .right {
-  background-color: #5759ee;
+  background-color: #f1c36d;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -79,7 +92,7 @@ img {
  display: flex;
  justify-content: center;
  flex-direction: row;
-  background-color: #f1c36d;
+ background-color: #5759ee;
   right: 5px;
   left: 5px;
   width: 100%;
@@ -88,8 +101,21 @@ img {
   text-shadow: .5px;
 }
 
+.review-box {
+  border: 1px solid;
+  padding: 1em;
+}
+
+.checked {
+  color: orange;
+}
+
 .container {
   display: flex;
   justify-content: flex-start;
 
 }
+
+
+/* Imported Fonts */
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100&family=PT+Serif&family=Permanent+Marker&display=swap');
