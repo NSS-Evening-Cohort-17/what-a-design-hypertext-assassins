@@ -1,0 +1,103 @@
+body {
+    background-image: url("/media/suspense-cat.gif");
+    background-size: 25%;
+    background-repeat: round;
+    margin: 0px;
+    padding: 0px;
+}
+
+.mainApp{
+    /*main app details*/
+    height: 92%;
+    width: max-content;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: scroll;
+}
+
+.navBar{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    float: left;
+    width: 7%;
+    height: 800px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: aqua;
+}
+
+.servicesMain {
+    float: inline-start;
+    margin-left: 3%;
+    margin-top: -8%;
+    padding-left: 5%;
+    padding-right: -15%;
+    padding-top: 10%;
+    padding-bottom: -7%;
+    background-color: brown;
+    border-style: dashed;
+    border-color: crimson;
+    border-width: 10px;
+}
+
+.servicesText{
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.servicesList{
+    font-size: smaller;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.asideApp{
+    flex-wrap: nowrap;
+    float: right;
+    margin-left: 75%;
+    margin-right: 0%;
+    margin-top: 2%;
+    margin-bottom: 70%;
+    background-color: darkgoldenrod;
+    opacity: 85%;
+    height: 200px;
+    width: 200px;
+    overflow: scroll;
+}
+
+.methodH{
+    font-size: x-small;
+    color:darkred;
+}
+
+.contactH {
+    font-weight: bolder;
+    color: darkred;
+}
+
+.aboutMe{
+    background-color: darkslategrey;
+    margin-top: 200px;
+    float: inline-start;
+    margin-left: 12%;
+}
+
+.aboutMe_header {
+    font-size: 30px;
+    color: floralwhite;
+}
+
+.catImages{
+    position: fixed;
+    margin-left: 600px;
+    margin-top: 10px;
+    background-color: greenyellow;
+    flex-wrap: nowrap;
+}
+
+.catwiggle--gif{
+    height: 200px;
+}
+.catpunch--gif{
+    height:200px;
+}
