@@ -1,5 +1,47 @@
+body {
+    background-image: url("https://media.giphy.com/media/3o6Zt0qwMStAG8UivS/giphy.gif");
+    background-position: center;
+
+}
+
 .navbar {
     display: flex;
     margin-right: 40%;
     flex: auto;
 }
+
+.assassins__footer {
+    text-align: center;
+    font-family: 'Henny Penny', cursive;
+    background-image: url("https://cdn3.iconfinder.com/data/icons/terrorism-8/512/target-sniper-circular-gun-shooting-512.png");
+    background-size: 150px;
+    width: 100%;
+    font-size: larger;
+    background-position: center;
+    color: white;
+    border: dotted aqua 5px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+    background-color: hotpink;
+  }
+
+
+  .fa-facebook {
+    background: red;
+    color: yellow;
+  }
+  
+  .fa-twitter {
+    background: limegreen;
+    color: purple;
+  }
