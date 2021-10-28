@@ -132,3 +132,69 @@ nav ul a {
     background: limegreen;
     color: purple;
   }
+
+  .page1--icon{
+    background-color: rgb(46, 44, 44);
+    height: 30px;
+    width: 200px;
+    padding: 5px;
+    margin-bottom: -7px;
+    opacity: 80%;
+  }
+
+  .page2--icon{
+    background-color: rgb(50, 22, 70);
+    height: 30px;
+    width: 200px;
+    margin-top: 15px;
+    opacity: 80%;
+  }
+
+  .page3--icon{
+    background-color: rgb(16, 16, 77);
+    height: 30px;
+    width: 200px;
+    opacity: 80%;
+  }
+
+  .page4--icon{
+    background-color: rgb(55, 61, 44);
+    height: 30px;
+    width: 200px;
+    opacity: 80%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+
+  .link-font{
+    color:darkseagreen;
+  }
+
+  .dropdown{
+    height: 200px;
+    overflow: scroll;
+  }
+
+  .marketing{
+    justify-content: center;
+  }
+
+  .dropdown-font {
+    color: lightslategray;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  .marketing-hook {
+    height: 300px;
+    overflow: scroll;
+  }
+
+  .num-font {
+    color: lightyellow;
+    font-size: 70px;
+  }
+
+  .market-font {
+    color: grey;
+    font-size: 45px;
+  }

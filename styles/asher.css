@@ -148,6 +148,7 @@ body {
     font-size: 60px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: darkgrey;
+    padding: 10px;
 }
 
 .catImages{
@@ -163,4 +164,9 @@ body {
 }
 .catpunch--gif{
     height:200px;
+}
+
+.assassin--img {
+    width: 150px;
+    height: 150px;
 }
