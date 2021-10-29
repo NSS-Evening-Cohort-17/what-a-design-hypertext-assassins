@@ -13,3 +13,8 @@ body {
     height: auto;
     padding: 20px;
 }
+
+.note {
+    font-size: x-large;
+    padding: 20px;
+}
