@@ -180,7 +180,7 @@ nav ul a {
   }
 
   .dropdown-font {
-    color: lightslategray;
+    color: rgb(20, 19, 19);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
 
@@ -190,11 +190,11 @@ nav ul a {
   }
 
   .num-font {
-    color: lightyellow;
+    color: rgb(20, 19, 19);
     font-size: 70px;
   }
 
   .market-font {
-    color: grey;
+    color: rgb(20, 19, 19);
     font-size: 45px;
   }
