@@ -1,13 +1,14 @@
+
+.ev__html {
+  background-image: url("https://media.giphy.com/media/cj1kwS7Bos9pd3aNOD/giphy.gif");
+  background-position: center;
+}
+
 .ev__main {
   font-family: 'Press Start 2P', cursive;
-  background-image: url("https://imgur.com/oMP6OGf");
 }
 
-.ev-about__h1, .ev-methods__h2, .ev-payment__h3, .ev-payment__h4, .ev--contact__h5, .ev--reviews__h5, .ev--catchphrase__h6 {
-  font-family: 'Press Start 2P', cursive;
-}
-
-.ev--catchphrase {
+.ev--catchphrase, .ev--contact__h5, .ev--reviews__h5, .ev--payment__h5, .ev--methods__h5, .ev--about__h5 {
   background-color: brown;
   text-align: center;
   color: orange;
@@ -20,6 +21,7 @@
 
 .blink {
   animation: blink 1s steps(1, end) infinite;
+  color: brown;
 }
 
 @keyframes blink {
@@ -39,14 +41,98 @@
   justify-content: space-evenly;
 }
 
-.ev--reviews__section, .ev--contact__section {
+.ev--reviews__section, .ev--contact__section, .ev--container2, .ev--container3 {
+  display: flex;
+  flex-wrap: wrap;
   width: 40%;
-  height: 40%;
+  height: 50%;
   background-image: url("https://www.wallpaperboulevard.com/Images/product/beige-bedroom-plaid-wallpaper-bjmh-l.jpg");
   margin: 2rem 3rem 2rem 3rem;
+  padding: .5rem;
+}
+
+.ev--contact__section {
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
 }
 
 .ev--reviewer__div {
   display: flex;
   font-style: italic;  
 }
+
+.ev--picture__div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ev--email__p {
+  margin-bottom: 0px;
+}
+
+.ev--contact__img {
+  width: 30%;
+  height: 50%;
+}
+
+.ev--contact__img:hover {
+  width: 100%;
+}
+
+.ev--container2, .ev--container3 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ev--cashonly__p {
+  background-color: brown;
+  color: wheat;
+  text-align: center;
+}
+
+.ev--about__img {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+ 
+.ev--about__img:hover {
+  filter: invert(100%);
+}
+
+.ev--container4 { 
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url("https://www.wallpaperboulevard.com/Images/product/beige-bedroom-plaid-wallpaper-bjmh-l.jpg");
+  margin: 2rem 3rem 2rem 3rem;
+  padding: .5rem;
+}
+
+fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  background-color: hotpink;
+}
+
+
+.fa-facebook {
+  background: red;
+  color: yellow;
+}
+
+.fa-twitter {
+  background: limegreen;
+  color: purple;
+}
+

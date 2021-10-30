@@ -4,10 +4,9 @@
 
 }
 
-.logo{
+.logo {
 width: 25%;
 height: auto;
-
 }
 
 nav {
@@ -18,6 +17,7 @@ nav {
   min-width: 320px;
   height: 200px;
 }
+
 nav h2 {
   border-radius: 2px;
   position: relative;
@@ -33,14 +33,17 @@ nav h2 {
   box-shadow: 4px 4px 20px -2px rgba(0,0,0,.35);
   transition: all .4s;
 }
+
 nav:hover h2{
   transform: translateY(-2px);
   box-shadow: 2px 2px 5px -1px rgba(0,0,0,.35);
  }
+
 nav:hover:active h2{
   transform: translateY(10px);
   box-shadow: 0px -1px 2px 0px rgba(0,0,0,.35);
  }
+
  input {
   position: absolute;
   left: 0;
@@ -55,6 +58,7 @@ nav:hover:active h2{
 #toggle:checked ~ul {
   height: 0%;
 }
+
  nav ul {
   padding-left: 0;
   padding-top: 0;
@@ -66,8 +70,8 @@ nav:hover:active h2{
   text-align: center;
   transition: all .4s ease-out;
   height: 100%;
-  
 }
+
 nav ul li {
   border-radius: 2px;
   position: relative;
@@ -109,31 +113,7 @@ nav ul a {
     border: dotted aqua 5px;
 }
 
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
-  }
-  
-  .fa:hover {
-    background-color: hotpink;
-  }
-
-
-  .fa-facebook {
-    background: red;
-    color: yellow;
-  }
-  
-  .fa-twitter {
-    background: limegreen;
-    color: purple;
-  }
-
-  .page1--icon{
+  .page1--icon {
     background-color: rgb(46, 44, 44);
     height: 30px;
     width: 200px;
@@ -180,7 +160,7 @@ nav ul a {
   }
 
   .dropdown-font {
-    color: lightslategray;
+    color: rgb(20, 19, 19);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
 
@@ -190,11 +170,35 @@ nav ul a {
   }
 
   .num-font {
-    color: lightyellow;
+    color: rgb(20, 19, 19);
     font-size: 70px;
   }
 
   .market-font {
-    color: grey;
+    color: rgb(20, 19, 19);
     font-size: 45px;
   }
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+    background-color: hotpink;
+  }
+
+  .fa-facebook {
+    background: red;
+    color: yellow;
+  }
+  
+  .fa-twitter {
+    background: limegreen;
+    color: purple;
+  }
+  
