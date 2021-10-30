@@ -1,20 +1,97 @@
 
-body {
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    background-color:rgb(0, 1, 1);
-    text-decoration-color: antiquewhite;
-  
+.body {
+    font-family: 'Are You Serious', cursive;
+    background-image: url("/media/arsenic.gif");
 }
 
 
+/* Nav Bar */
+
+nav h2 {
+  border-radius: 2px;
+  position: relative;
+  background: tomato;
+  height: 40px;
+  text-transform: uppercase;
+  color: ivory;
+  font-weight: 200;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 4px 4px 20px -2px rgba(0,0,0,.35);
+  transition: all .4s;
+}
+nav:hover h2{
+  transform: translateY(-2px);
+  box-shadow: 2px 2px 5px -1px rgba(0,0,0,.35);
+ }
+nav:hover:active h2{
+  transform: translateY(10px);
+  box-shadow: 0px -1px 2px 0px rgba(0,0,0,.35);
+ }
+ input {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  opacity: 0;
+  cursor: pointer;
+  height: 40px;
+}
+
+#toggle:checked ~ul {
+  height: 0%;
+}
+ nav ul {
+  padding-left: 0;
+  padding-top: 0;
+  margin-top: 0;
+  list-style: none;
+  overflow: hidden;
+  text-align: right;
+  margin-bottom: 22px;
+  text-align: center;
+  transition: all .4s ease-out;
+  height: 100%;
+  
+}
+nav ul li {
+  border-radius: 2px;
+  position: relative;
+  display: inline-block;
+  margin-left: 35px;
+  line-height: 1.5;
+  width: 100%;
+  margin: 0;
+  margin-bottom: 5px;
+  background: tomato;
+  transition: background-position 3s;
+  box-shadow: 2px 2px 10px -2px rgba(0,0,0,.35);
+}
+
+nav ul li:hover {
+  background: mediumorchid;
+  transition: background-position .45s;
+}
+
+nav ul a {
+  display: block;
+  color: ivory;
+  text-transform: lowercase;
+  font-size: 18px;
+  font-weight: 200;
+  text-decoration: none;
+  transition: color .3s;
+}
+ /* Text Styling*/
+  
 
 h1 {
     display: flex;
-    justify-content: center
-}
-
-h1 {
-    padding: 2em
+    justify-content: center;
+    padding: 2em;
 }
 
 h4 {
@@ -35,19 +112,22 @@ h6 {
 }
 
 p {
-  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'Are You Serious', cursive;
   margin: 2rem;
   font-size: 12pt;
 }
 
+/* Image Styling */
+
 img {
-  height: 200px
+  height: 200px;
 }
  q {
   margin: 1rem;
   display: inline-block;
  }
 
+/* Container & Side Styling */
 
 #app {
   display: flex;
@@ -118,4 +198,4 @@ img {
 
 
 /* Imported Fonts */
-@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100&family=PT+Serif&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Are+You+Serious&family=M+PLUS+Rounded+1c:wght@100&family=PT+Serif&family=Permanent+Marker&display=swap');
