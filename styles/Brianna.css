@@ -1,5 +1,5 @@
 html{
-    background-color: darkslateblue;
+    background-image: url(/media/americas-antm.gif);
 }
 
 
@@ -110,6 +110,12 @@ nav {
 
 .topleft{
     background-color: pink;
+    display: flex;
+    
+}
+.contactinfo{
+display: flex;
+    align-items: center;
 }
 
 .right{
