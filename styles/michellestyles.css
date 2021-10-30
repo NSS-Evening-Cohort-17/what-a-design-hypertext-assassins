@@ -39,7 +39,6 @@
 .ev--container1 {
   display: flex;
   justify-content: space-evenly;
-
 }
 
 .ev--reviews__section, .ev--contact__section, .ev--container2, .ev--container3 {
@@ -96,10 +95,8 @@
   margin-left: auto;
   margin-right: auto;
   width: 20%;
-
 }
  
-  
 .ev--about__img:hover {
   filter: invert(100%);
 }
