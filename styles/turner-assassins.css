@@ -97,6 +97,7 @@ h1 {
     display: flex;
     justify-content: center;
     padding: 2em;
+    font-family: 'Permanent Marker', cursive;
 }
 
 h4 {
@@ -106,7 +107,7 @@ h4 {
 
 .reviews__header5 {
   font-family: 'Permanent Marker', cursive;
-  font-size: 16pt;
+  font-size: 18pt;
   margin: 1rem;
 }
 
@@ -119,7 +120,7 @@ h4 {
 .reviews-header6, .payment__header4, .services__header4 {
   font-family: 'Are You Serious', cursive;
   margin: 2rem;
-  font-size: 12pt;
+  font-size: 16pt;
 }
 
 /* Image Styling */
